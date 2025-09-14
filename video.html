@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="mr">
+<head>
+  <meta charset="utf-8">           
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>मराठी उदाहरण — Marathi Example</title>
+
+
+  <style>
+    body {
+      font-family: var(--marathi-font);
+      line-height: 1.6;
+      padding: 1.5rem;
+      background: #c2e495;
+      color: #ce8282;
+    }
+    h1, h2 {
+      margin: .5rem 0;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+      max-width: 800px;
+    }
+    label { display:block; margin-top:.6rem; }
+    input, textarea {
+      width:100%;
+      padding:.6rem;
+      margin-top:.3rem;
+      border:1px solid #ddd;
+      border-radius:6px;
+      font-family: var(--marathi-font);
+      font-size:1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card" role="main">
+    <h1>नमस्ते!</h1>
+    <h2>हे एक मराठी HTML उदाहरण आहे</h2>
+
+    <p lang="mr">
+      ही एक छोटी परिच्छेद आहे. तुम्ही तुमचा मराठी मजकूर इथे टाइप करु शकता — उदाहरणार्थ:
+      <strong>माझे नाव तेजस्विनी आहे.</strong> हा मजकूर योग्य फॉन्ट आणि कॅरेक्टर सेटसह दिसेल.
+    </p>
+
+    <form>
+      <label for="name">नाव</label>
+      <input id="name" name="name" type="text" placeholder="तुमचे नाव येथे लिहा" lang="mr">
+
+      <label for="message">संदेश</label>
+      <textarea id="message" name="message" rows="4" placeholder="तुमचा संदेश इथे टाका" lang="mr"></textarea>
+
+      <button type="submit" style="margin-top:.8rem;padding: 8em;rem;border-radius:6px;">पाठवा</button>
+    </form>
+  </div>
+</body>
+</html>
